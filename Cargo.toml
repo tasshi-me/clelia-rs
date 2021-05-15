@@ -1,8 +1,20 @@
 [package]
 name = "clelia"
-version = "0.1.0"
+version = "0.0.0"
 authors = ["Masaharu Tashiro <masatsr.kit@gmail.com>"]
 edition = "2018"
+description = "X68000(X68k) emulator written in Rust."
+documentation = "https://docs.rs/clelia/"
+readme = "README.md"
+homepage = "https://crates.io/crates/clelia"
+repository = "https://github.com/mshrtsr/clelia-rs"
+license = "MIT"
+keywords = ["gamedev", "emulation", "graphics", "X68000"]
+categories = ["emulators", "game-development", "graphics"]
+include = ["src/**/*", "Cargo.toml", "Cargo.lock", "README.md"]
+
+[badges]
+maintenance = { status = "actively-developed" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
